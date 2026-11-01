@@ -5,7 +5,7 @@
         "email": "jordan.lee@example.com",
         "category": "technical",
         "description": "The dashboard does not load after I sign in.",
-        "status": "Resolved",
+        "status": "In Progress",
         "attachment": null,
         "created_by": 1
     },
@@ -35,6 +35,16 @@
         "email": "agent@example.com",
         "category": "billing",
         "description": "awdawdawdawd",
+        "status": "Open",
+        "attachment": null,
+        "created_by": 1
+    },
+    {
+        "id": 5,
+        "name": "waddawdaw",
+        "email": "awd@mail.com",
+        "category": "billing",
+        "description": "awdawdasdfasdfasdf",
         "status": "Open",
         "attachment": null,
         "created_by": 1

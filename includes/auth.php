@@ -108,9 +108,7 @@ function requireRole(string $requiredRole): void
         http_response_code(403); // Return our error code
 
         // Output a user-facing error message and stop execution
-        echo "<h1> 403 Forbidden </h1>";
-        echo "<p>You do not have permission to access this resource.</p>";
-        exit;
+        exit('You do not have permission to access this resource');
     }
 }
 
