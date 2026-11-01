@@ -105,9 +105,9 @@ function requireRole(string $requiredRole): void
     $userRole = $_SESSION['user']['role'] ?? ''; // Extract the user's role from our array
 
     if ($userRole !== $requiredRole) { // Validate clearance level
-        http_response_code(403); // Return our error code
+        http_response_code(403); // Return error code
 
-        // Output a user-facing error message and stop execution
+        // Output an error message and stop execution
         exit('You do not have permission to access this resource');
     }
 }
